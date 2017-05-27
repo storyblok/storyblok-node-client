@@ -15,6 +15,10 @@ npm install storyblok-node-client
 **Parameters**
 
 - `config` Object
+  - `privateToken` String, The private token you can find in your space dashboard at https://app.storyblok.com
+  - `cache` Object
+    - `type` String, `filesystem` or `memory`
+    - `path` String, required if you use `filesystem` as type
 - (`endpoint` optional)
 
 **Example**
