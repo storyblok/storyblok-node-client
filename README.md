@@ -40,7 +40,7 @@ The Storyblok nodejs client comes with a caching mechanism.
 When initializing the Storyblok client you can define a cache provider for caching the requests on the filesystem or in memory.
 To clear the cache you can call `Storyblok.flushCache();`.
 
-```
+```javascript
 // For a filesystem cache the path parameter is mandatory
 let Storyblok = new StoryblokClient({
   privateToken: 'xf5dRMMjltLzKOcNgMaU9Att',
