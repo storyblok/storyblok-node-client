@@ -2,6 +2,8 @@
 
 This client will provide you some helpers for the Storyblok publishing API.
 
+This repository has been inspired by https://github.com/schornio/node-storyblok. Big thanks to [Thomas Schorn](https://github.com/schornio) for this awesome package.
+
 ## Install
 
 ```
