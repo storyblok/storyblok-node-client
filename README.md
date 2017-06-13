@@ -27,7 +27,7 @@ npm install storyblok-node-client
 
 ```javascript
 // 1. Require the Storyblok node client
-const StoryblokClient = require('./storyblok-node-client');
+const StoryblokClient = require('storyblok-node-client');
 
 // 2. Initialize the client with the private key 
 // from your space dashboard at https://app.storyblok.com
