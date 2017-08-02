@@ -65,7 +65,7 @@ let Storyblok = new StoryblokClient({
 
 **Parameters**
 - `[return]` Promise, Object `response`
-- `path` String, Path (can be `stories`, `stories/*`, `tags`, `datasources`)
+- `path` String, Path (can be `stories`, `stories/*`, `tags`, `datasources`, `links`)
 - `options` Object, Options can be found in the [API documentation](https://www.storyblok.com/docs/Delivery-Api/get-a-story).
 
 **Example**
