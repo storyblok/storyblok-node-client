@@ -110,6 +110,8 @@ class Storyblok {
         break;
 
       default:
+        cacheVersion = new Date().getTime();
+
         return {
           get() { },
           set() { },
