@@ -22,11 +22,11 @@ class Storyblok {
   get(slug, options) {
     let query = options || {}
     if (!query.version) { query.version = 'published'; }
+    if (!query.token) { query.token = this.getToken(); }
 
     let requestUrl = url.parse(`${this.endpoint}/cdn/${slug}`, true);
 
-    requestUrl.query = query
-    requestUrl.query.token = this.getToken();
+    requestUrl.query = query;
     requestUrl.query.cache_version = cacheVersion;
 
     return this.cacheResponse(requestUrl);
