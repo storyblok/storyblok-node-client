@@ -1,4 +1,6 @@
-# Official Storyblok Node.js client
+# NEW: Storyblok Universal JS Client: https://github.com/storyblok/storyblok-js-client
+
+## Deprecated: Official Storyblok Node.js client
 
 This client will provide you some helpers for the Storyblok publishing API.
 
